@@ -11,6 +11,9 @@ class CommentList extends Component {
   render() {
     return (
       <div>
+        <h3>Home</h3>
+        <hr />
+        <h4>Comment List</h4>
         <ul>{this.renderComments()}</ul>
       </div>
     );
